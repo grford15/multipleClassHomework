@@ -11,4 +11,8 @@ class Bear
     return "ROAR!"
   end
 
+  def take_fish(fish)
+    @stomach << fish 
+  end
+
 end
